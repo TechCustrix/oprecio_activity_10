@@ -3,26 +3,28 @@ Hostname: TechCustrix
 IP Address: 10.0.0.1
 
 User Activity Logs:
-help
 ip a
-ip route
 hostname -I
-ping https://www.thesistersofmaryschools.org/
-traceroute https://www.thesistersofmaryschools.org/
-netstat -tulnp
-nsloopup https://www.thesistersofmaryschools.org/
-nslookup https://www.thesistersofmaryschools.org/
-dig target https://www.thesistersofmaryschools.org/
-nmap https://www.thesistersofmaryschools.org/
-nmap -sV https://www.thesistersofmaryschools.org/
-nmap -A https://www.thesistersofmaryschools.org/
+ping https://www.sinrevilo.moc
+ping https://www.xeno-byte.moc
+ping https://www.gi4nt-tcr.moc
+traceroute https://www.sinrevilo.moc
+traceroute https://www.xeno-byte.moc
+traceroute https://www.gi4nt-tcr.moc
+dig https://www.sinrevilo.moc
+dig https://www.xeno-byte.moc
+dig https://www.gi4nt-tcr.moc
+nmap 89.562.167.1
+nmap 149.658.125.3
+nmap 78.562.35.6
+nmap -sV  89.562.167.1
+nmap -sV 149.658.125.3
+nmap -sV 78.562.35.6
+tcpdump -i WLAN
 arp-scan --localnet
 sudo arp-scan --localnet
-tcpdump -i eth0
-curl https://www.thesistersofmaryschools.org/
-nc 192.168.1.83 80
-Is
-cat
 ls
+cat activity_log.txt
+cat activity_real.txt
 cat activity_10_log.txt
 wget activity_10_log.txt
